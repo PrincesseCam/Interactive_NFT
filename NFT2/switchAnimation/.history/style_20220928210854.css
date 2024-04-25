@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+  }
+  .p{
+    position: absolute;
+    font-family: arial;
+  }
+  #btns{
+    position: absolute;
+    right: 150px; 
+    bottom: 25px;
+  }
+  .btn{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: arial;
+    cursor: pointer;
+  }
+  .btn:active {
+    background-color: #4158D0;
+    box-shadow: 0 5px rgb(159, 74, 112);
+    transform: translateY(4px);
+  }
