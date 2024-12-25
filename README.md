@@ -12,7 +12,6 @@ Keywords: NFT, Blockchain, Smart contract
 - **Dynamic Content**: Content within the NFT can change based on user input or external data.
 - **Customizable**: Users can customize certain aspects of the NFT, such as colors, text, or images.
 - **Ethereum Integration**: Built on the Ethereum blockchain, leveraging the security and decentralization of the network.
-- **Web3.js**: Utilizes Web3.js for seamless interaction with Ethereum smart contracts and the blockchain.
 
 ## Getting Started
 
