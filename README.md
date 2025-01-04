@@ -37,11 +37,13 @@ Check out the deployed NFTs on OpenSea:
 - [NFT 1](https://testnets.opensea.io/fr/assets/goerli/0xcb7033e4906de74cb87cdf0d2b61151c972e1938/1)
 - [NFT 2](https://testnets.opensea.io/fr/assets/goerli/0x149d1c6edfdf840000a59150323ddeae196d8b42/2)
 
-**Screenshots:**
-![NFT Preview](https://via.placeholder.com/800x400?text=NFT+Preview)
+**Screenshots:**  
+NFT1
+![Image1](https://github.com/user-attachments/assets/c8403b70-749f-4c39-b7d9-ae0f0bd06568)
+NFT2
+![Image2](https://github.com/user-attachments/assets/844a6ac7-4d8a-458a-bbb9-4fdc173e9a3a)
 
 ---
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -84,6 +86,7 @@ npm install
 ---
 
 ## 📁 Project Structure
+```bash
 Interactive_NFT/
 ├── contracts/
 │   └── NFTContract.sol    # Smart contract for the NFT
@@ -97,6 +100,7 @@ Interactive_NFT/
 │   └── images/            # Preview images
 ├── package.json           # Project dependencies
 └── README.md              # Project documentation
+```
 
 ## 📚 Documentation
 
@@ -108,7 +112,7 @@ Below is a sample metadata structure used in the project:
   "description": "An interactive NFT for the metaverse",
   "image": "ipfs://<HASH>/avatar.png",
   "animation_url": "ipfs://<HASH>/avatar_animation.glb",
-  "external_url": "https://princessecamwebsite.com"
+  "external_url": ""
 }
 ```
 
@@ -117,10 +121,6 @@ The smart contract supports the following functionalities:
 - **Minting**: Creating new NFTs.
 - **Burning**: Destroying NFTs.
 - **Metadata Management**: Linking NFTs to IPFS URIs.
-
-## 👩‍💻 Author
-**Camille Kabore**  
-- [LinkedIn](https://linkedin.com/in/camille-kabore)  
 
 ## 📜 License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
